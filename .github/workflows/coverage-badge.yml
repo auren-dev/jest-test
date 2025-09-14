@@ -33,7 +33,7 @@ jobs:
       - run: npm ci
 
       # Jest 테스트 및 Coverage Report 생성
-      - run: npm test:coverage   # coverage/coverage-summary.json 생성
+      - run: npm run test:coverage   # coverage/coverage-summary.json 생성
 
       # Converage Badge 생성
       - name: Generate coverage badges
