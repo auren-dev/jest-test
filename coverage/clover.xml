@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1757889827512" clover="3.2.0">
-  <project timestamp="1757889827513" name="All files">
+<coverage generated="1757890774353" clover="3.2.0">
+  <project timestamp="1757890774354" name="All files">
     <metrics statements="61" coveredstatements="61" conditionals="11" coveredconditionals="11" methods="7" coveredmethods="6" elements="79" coveredelements="78" complexity="0" loc="61" ncloc="61" packages="3" files="7" classes="7"/>
     <package name="prisma">
       <metrics statements="12" coveredstatements="12" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
