@@ -8,7 +8,7 @@
     "dev": "tsx watch src/app.ts",
     "test": "jest",
     "test:coverage": "jest --coverage",
-    "make-badges": "coverage-badges"
+    "badge": "coverage-badges"
   },
   "dependencies": {
     "express": "^5.1.0"
