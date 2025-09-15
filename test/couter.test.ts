@@ -1,8 +1,24 @@
 import { describe, beforeEach, afterEach, test, expect } from '@jest/globals'
 import Counter from '../src/couter'
 
-test('placeholder', () => {
-    expect(true).toBe(true)
-})
+describe('[Counter] 테스트 그룹', () => {
+    let counter: Counter = new Counter()
+    
+    beforeEach(() => {
+        counter.set(2)
+    })
 
-// ❗️TODO:: 요구사항을 만족하도록 코드를 작성하세요
+    test('[Counter] 증가', () => {
+        // 이미 2로 설정되어 있음
+        counter.increment()
+        const result = counter.get()
+        expect(result).toBe(3)
+    })
+
+    test('[Counter] 감소', () => {
+        // 이미 2로 설정되어 있음
+        counter.decrement()
+        const result = counter.get()
+        expect(result).toBe(1)
+    })
+})
